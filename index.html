@@ -1,24 +1,91 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
-    <meta charset="UTF-8">
-    <title>CS:GO — головна сторінка</title>
-    <meta name="author" content="Олександр">
+  <meta charset="UTF-8">
+  <title>CS:GO — головна сторінка</title>
+  <meta name="author" content="Олександр">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
 
-<h1>Counter-Strike: Global Offensive</h1>
+<body link="#00b7ff" vlink="#b28dff" alink="#ffd24a">
+  <header class="page-header">
+    <h1>Counter-Strike: Global Offensive</h1>
+  </header>
 
-<p>
-    Counter-Strike: Global Offensive (CS:GO) — це командна
-    тактична шутер-гра, у якій гравці змагаються у протистоянні
-    терористів та спецпідрозділів.
-</p>
+  <main class="layout">
+    <section class="content">
+      <h2 id="what-is">Що таке CS:GO</h2>
 
-<p>
-    На цьому сайті представлена інформація про гру, її карти,
-    рейтинги гравців та ігрові механіки.
-</p>
+      <p>
+        <strong>Counter-Strike: Global Offensive (CS:GO)</strong> — командний тактичний шутер, де дві сторони
+        змагаються у виконанні цілей: встановлення/знешкодження бомби або утримання позицій.
+      </p>
 
+      <p>
+        Основна “фішка” гри — <em>командна взаємодія</em>, контроль економіки раунду та знання карт.
+        На цьому сайті ти знайдеш сторінки про <strong>карти</strong>, мінігру “відкриття кейсу” та
+        <strong>рейтинг</strong>.
+      </p>
+
+      <h3>Популярні ролі в команді (ul)</h3>
+      <ul type="square">
+        <li><strong>Entry</strong> — перший вхід на точку</li>
+        <li><strong>Support</strong> — гранати та допомога</li>
+        <li><strong>AWPer</strong> — снайперська позиція</li>
+      </ul>
+
+      <h3>Кроки підготовки до матчу (ol)</h3>
+      <ol type="I">
+        <li>Розігрів (aim / deathmatch)</li>
+        <li>Повторення смоків/флешок</li>
+        <li>Комунікація в команді</li>
+      </ol>
+
+      <h3>Трохи Термінів</h3>
+      <dl>
+        <dt><strong>Eco</strong></dt>
+        <dd>Раунд з мінімальними закупками, щоб зібрати економіку.</dd>
+
+        <dt><strong>Force buy</strong></dt>
+        <dd>Ризикована закупка, коли грошей недостатньо для “повного” раунду.</dd>
+      </dl>
+
+      <h2 id="video">Трейлер</h2>
+
+      <div class="float-frame">
+        <iframe width="360" height="215" src="https://www.youtube.com/embed/edYCtaNueQY" title="CS:GO video"
+          frameborder="0" allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+
+    <aside class="sidebar">
+      <nav class="menu">
+        <h2 class="menu-title">MENU</h2>
+        <ul>
+          <li><a href="map-csgo.html">Choose the map</a></li>
+          <li><a href="game.html">Open a box</a></li>
+          <li><a href="rating.html">See the rating</a></li>
+
+          <li><a href="#what-is">Read what the game is</a></li>
+          <li><a href="#media">See images</a></li>
+          <li><a href="map-csgo.html#map-history">Read about maps</a></li>
+
+          <li><a href="https://www.counter-strike.net" target="_blank" rel="noopener noreferrer">
+              See official website
+            </a></li>
+        </ul>
+      </nav>
+    </aside>
+
+  </main>
+
+  <footer class="page-footer">
+    <p>Автор: Олександр • Навчальний проєкт</p>
+  </footer>
 </body>
+
 </html>

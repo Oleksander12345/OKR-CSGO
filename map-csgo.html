@@ -1,13 +1,192 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <title>CS:GO — карти</title>
     <meta name="author" content="Олександр">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/map.css">
 </head>
-<body>
 
-<h1>Карти CS:GO</h1>
+<body link="#00b7ff" vlink="#b28dff" alink="#ffd24a">
+    <header class="page-header">
+        <h1>Карти CS:GO</h1>
+        <p class="subtitle">
+            Галерея популярних карт у стилі меню вибору мапи. Натисни на картку, щоб переглянути зображення.
+        </p>
+    </header>
 
+    <main class="layout">
+        <section class="content">
+            <h2 id="map-history">Коротко про карти</h2>
+
+            <p>
+                Карти в CS:GO визначають стиль гри: одні підходять для агресивних виходів, інші — для позиційного
+                контролю.
+                У цьому розділі зібрані найвідоміші локації та їх короткі характеристики.
+            </p>
+
+            <p>
+                Повернутись на <a href="index.html">головну</a> або перейти до <a href="game.html">відкриття кейсу</a>.
+                Також можна переглянути <a href="rating.html">рейтинг</a>.
+            </p>
+
+            <h2 id="gallery">Галерея карт</h2>
+
+            <div class="maps-grid">
+                <!-- Dust II -->
+                <article class="map-card">
+
+                    <input type="checkbox" id="map-dust2" class="map-check">
+
+                    <a class="map-thumb" href="images/maps/dust2.png" target="_blank">
+                        <img src="images/maps/dust2.png" alt="Dust II" width="280" height="150">
+                    </a>
+
+                    <div class="map-meta">
+                        <div>
+                            <h3>Dust II</h3>
+                            <p class="wait">Expected Wait Time: 00:54</p>
+                        </div>
+
+                        <label for="map-dust2" class="badge">
+                            ✔
+                        </label>
+
+                    </div>
+                </article>
+
+                <!-- Mirage -->
+                <article class="map-card">
+
+                    <input type="checkbox" id="map-mirage" class="map-check">
+
+                    <a class="map-thumb" href="images/maps/mirage.png" target="_blank">
+                        <img src="images/maps/mirage.png" alt="Dust II" width="280" height="150">
+                    </a>
+
+                    <div class="map-meta">
+                        <div>
+                            <h3>Mirage</h3>
+                            <p class="wait">Expected Wait Time: 01:08</p>
+                        </div>
+
+                        <label for="map-mirage" class="badge">
+                            ✔
+                        </label>
+
+                    </div>
+                </article>
+                <!-- Inferno -->
+                <article class="map-card">
+
+                    <input type="checkbox" id="map-inferno" class="map-check">
+
+                    <a class="map-thumb" href="images/maps/inferno.png" target="_blank">
+                        <img src="images/maps/inferno.png" alt="Dust II" width="280" height="150">
+                    </a>
+
+                    <div class="map-meta">
+                        <div>
+                            <h3>Inferno</h3>
+                            <p class="wait">Expected Wait Time: 00:32</p>
+                        </div>
+
+                        <label for="map-inferno" class="badge">
+                            ✔
+                        </label>
+
+                    </div>
+                </article>
+                <!-- Nuke -->
+                <article class="map-card">
+
+                    <input type="checkbox" id="map-nuke" class="map-check">
+
+                    <a class="map-thumb" href="images/maps/nuke.png" target="_blank">
+                        <img src="images/maps/nuke.png" alt="Dust II" width="280" height="150">
+                    </a>
+
+                    <div class="map-meta">
+                        <div>
+                            <h3>Nuke</h3>
+                            <p class="wait">Expected Wait Time: 02:05</p>
+                        </div>
+
+                        <label for="map-nuke" class="badge">
+                            ✔
+                        </label>
+
+                    </div>
+                </article>
+                <!-- Overpass -->
+                <article class="map-card">
+
+                    <input type="checkbox" id="map-overpass" class="map-check">
+
+                    <a class="map-thumb" href="images/maps/overpass.png" target="_blank">
+                        <img src="images/maps/overpass.png" alt="Dust II" width="280" height="150">
+                    </a>
+
+                    <div class="map-meta">
+                        <div>
+                            <h3>Overpass</h3>
+                            <p class="wait">Expected Wait Time: 01:26</p>
+                        </div>
+
+                        <label for="map-overpass" class="badge">
+                            ✔
+                        </label>
+
+                    </div>
+                </article>
+                <!-- Train -->
+                <article class="map-card">
+
+                    <input type="checkbox" id="map-train" class="map-check">
+
+                    <a class="map-thumb" href="images/maps/train.png" target="_blank">
+                        <img src="images/maps/train.png" alt="Dust II" width="280" height="150">
+                    </a>
+
+                    <div class="map-meta">
+                        <div>
+                            <h3>Dust II</h3>
+                            <p class="wait">Expected Wait Time: 0:54</p>
+                        </div>
+
+                        <label for="map-train" class="badge">
+                            ✔
+                        </label>
+
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Sidebar: можеш вставити свій “CS:GO menu” як на index -->
+        <aside class="sidebar">
+            <nav class="menu" aria-label="Навігація">
+                <h2 class="menu-title">MENU</h2>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="game.html">Open a box</a></li>
+                    <li><a href="rating.html">See the rating</a></li>
+                    <li><a href="#map-history">Read about maps</a></li>
+                    <li><a href="#gallery">Open gallery</a></li>
+                    <li><a href="https://www.counter-strike.net" target="_blank" rel="noopener noreferrer">Official
+                            website</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </main>
+
+    <footer class="page-footer">
+        <p>Автор: Олександр • Розділ “Карти”</p>
+    </footer>
 </body>
+
 </html>

@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+a:link { color: #00b7ff; }
+a:visited { color: #b28dff; }
+a:hover { color: #ffd24a; }
+
+.page-header, .page-footer {
+  padding: 16px 20px;
+}
+.page-footer {
+  text-align: end;
+}
+.layout {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+.sidebar {
+  width: 320px;
+}
+
+#video {
+  text-align: center;
+}
+
+.float-frame {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}

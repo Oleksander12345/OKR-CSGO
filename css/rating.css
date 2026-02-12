@@ -1,0 +1,105 @@
+/* rating.css — стилі тільки для rating.html */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #eaeaea;
+}
+
+.page-header,
+.page-footer {
+  padding: 14px 18px;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  opacity: 0.9;
+}
+
+.layout {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  align-items: flex-start;
+}
+
+.content {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 14px 16px;
+  border-radius: 10px;
+}
+
+/* --- Таблиця --- */
+table {
+  width: 100%;
+  border-collapse: separate; /* щоб cellspacing мав сенс */
+  margin: 12px 0 18px;
+  background: rgba(10, 15, 25, 0.75);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Заголовок таблиці */
+caption {
+  caption-side: top;
+  padding: 10px 6px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+/* Комірки */
+th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Шапка */
+thead th {
+  color: #f8fafc;
+  font-weight: bold;
+}
+
+/* Тіло */
+tbody td {
+  color: #e5e7eb;
+}
+
+/* Hover по рядку */
+tbody tr:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Підсвітка першої колонки (# / Tier) */
+tbody td:first-child {
+  font-weight: bold;
+  color: #ffd24a;
+}
+
+/* Посилання в таблиці */
+table a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer таблиці */
+tfoot td {
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+/* Заголовки секцій */
+h2 {
+  margin-top: 20px;
+}
+
+/* Трохи читабельності для абзаців */
+p {
+  line-height: 1.6;
+}
