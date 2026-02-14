@@ -112,12 +112,10 @@ body {
     transition: 0.3s;
 }
 
-/* Ховаємо чекбокс */
 .map-check {
     display: none;
 }
 
-/* Badge вигляд */
 .badge {
     width: 28px;
     height: 28px;
@@ -137,7 +135,6 @@ body {
     color: #000;
 }
 
-/* Альтернативний варіант — підсвітити всю картку */
 .map-check:checked~* {
     box-shadow: 0 0 15px #f3ac13;
 }

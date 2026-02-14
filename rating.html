@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
   <meta charset="UTF-8">
   <title>CS:GO — рейтинг</title>
@@ -27,31 +28,23 @@
         Повернутись на <a href="index.html">головну</a> або перейти до <a href="map-csgo.html">карт</a>.
       </p>
 
-      <!-- СКЛАДНА ТАБЛИЦЯ (пункт 4) -->
-      <table
-        border="1"
-        cellpadding="10"
-        cellspacing="4"
-        width="100%"
-      >
+      <table border="1" cellpadding="10" cellspacing="4" width="100%">
         <caption><strong>CS:GO — рейтинг команд і популярність карт</strong></caption>
 
-        <!-- ГРУПУВАННЯ КОЛОНОК -->
         <colgroup>
-          <col span="1"> <!-- № -->
-          <col span="1"> <!-- Команда -->
+          <col span="1">
+          <col span="1">
         </colgroup>
 
         <colgroup>
-          <col span="2"> <!-- Рейтинг, Очки -->
-          <col span="1"> <!-- Серія -->
+          <col span="2">
+          <col span="1">
         </colgroup>
 
         <colgroup>
-          <col span="2"> <!-- Best map, Winrate -->
+          <col span="2">
         </colgroup>
 
-        <!-- ШАПКА з COLSPAN -->
         <thead>
           <tr bgcolor="#1f2937" align="center">
             <th rowspan="2">#</th>
@@ -73,7 +66,6 @@
         </thead>
 
         <tbody>
-          <!-- Рядок 1: вирівнювання по центру -->
           <tr align="center" valign="middle">
             <td>1</td>
             <td align="left"><strong>NAVI</strong></td>
@@ -84,7 +76,6 @@
             <td>62%</td>
           </tr>
 
-          <!-- Рядок 2: інше вирівнювання -->
           <tr align="center" valign="top">
             <td>2</td>
             <td align="left"><strong>FaZe</strong></td>
@@ -95,7 +86,6 @@
             <td>60%</td>
           </tr>
 
-          <!-- Рядок 3: valign bottom -->
           <tr align="center" valign="bottom">
             <td>3</td>
             <td align="left"><strong>G2</strong></td>
@@ -106,7 +96,6 @@
             <td>58%</td>
           </tr>
 
-          <!-- Приклад ROWSPAN: “Tier A” на 2 рядки -->
           <tr align="center">
             <td rowspan="2" bgcolor="#0b1220"><strong>A</strong></td>
             <td align="left"><strong>Vitality</strong></td>
@@ -118,7 +107,6 @@
           </tr>
 
           <tr align="center">
-            <!-- № тут нема, бо rowspan -->
             <td align="left"><strong>Spirit</strong></td>
             <td>0.82</td>
             <td>810</td>
@@ -128,12 +116,12 @@
           </tr>
         </tbody>
 
-        <!-- FOOTER з COLSPAN -->
         <tfoot>
           <tr bgcolor="#0b1220" align="center">
             <td colspan="7">
               Примітка: значення умовні. Для реальних рейтингів можна використати посилання:
-              <a href="https://www.hltv.org/ranking/teams/" target="_blank" rel="noopener noreferrer">HLTV Team Rankings</a>.
+              <a href="https://www.hltv.org/ranking/teams/" target="_blank" rel="noopener noreferrer">HLTV Team
+                Rankings</a>.
             </td>
           </tr>
         </tfoot>
@@ -141,62 +129,58 @@
 
       <h2 id="top-maps">Топ карт (таблиця 3×4)</h2>
 
-<table border="1" cellpadding="10" cellspacing="3" width="100%">
-  <caption><strong>CS:GO — Топ карт (приклад для пункту 3)</strong></caption>
+      <table border="1" cellpadding="10" cellspacing="3" width="100%">
+        <caption><strong>CS:GO — Топ карт (приклад для пункту 3)</strong></caption>
 
-  <!-- Шапка -->
-  <tr bgcolor="#1f2937" align="center">
-    <th>Dust II</th>
-    <th>Mirage</th>
-    <th>Inferno</th>
-    <th>Nuke</th>
-  </tr>
+        <tr bgcolor="#1f2937" align="center">
+          <th>Dust II</th>
+          <th>Mirage</th>
+          <th>Inferno</th>
+          <th>Nuke</th>
+        </tr>
 
-  <!-- 1 рядок — картинки -->
-  <tr align="center">
-    <td>
-      <img src="images/maps/dust2.png" alt="Dust II" width="160" height="90">
-    </td>
-    <td>
-      <img src="images/maps/mirage.png" alt="Mirage" width="160" height="90">
-    </td>
-    <td>
-      <img src="images/maps/inferno.png" alt="Inferno" width="160" height="90">
-    </td>
-    <td>
-      <img src="images/maps/nuke.png" alt="Nuke" width="160" height="90">
-    </td>
-  </tr>
+        <tr align="center">
+          <td>
+            <img src="images/maps/dust2.png" alt="Dust II" width="160" height="90">
+          </td>
+          <td>
+            <img src="images/maps/mirage.png" alt="Mirage" width="160" height="90">
+          </td>
+          <td>
+            <img src="images/maps/inferno.png" alt="Inferno" width="160" height="90">
+          </td>
+          <td>
+            <img src="images/maps/nuke.png" alt="Nuke" width="160" height="90">
+          </td>
+        </tr>
 
-  <!-- 2 рядок — гіперпосилання -->
-  <tr align="center">
-    <td>
-      <a href="map-csgo.html#dust2">Детальніше</a>
-    </td>
-    <td>
-      <a href="map-csgo.html#mirage">Детальніше</a>
-    </td>
-    <td>
-      <a href="map-csgo.html#inferno">Детальніше</a>
-    </td>
-    <td>
-      <a href="map-csgo.html#nuke">Детальніше</a>
-    </td>
-  </tr>
+        <tr align="center">
+          <td>
+            <a href="map-csgo.html#dust2">Детальніше</a>
+          </td>
+          <td>
+            <a href="map-csgo.html#mirage">Детальніше</a>
+          </td>
+          <td>
+            <a href="map-csgo.html#inferno">Детальніше</a>
+          </td>
+          <td>
+            <a href="map-csgo.html#nuke">Детальніше</a>
+          </td>
+        </tr>
 
-  <!-- 3 рядок — текст -->
-  <tr align="center" valign="top">
-    <td style="color: white;">Класична карта з простими таймінгами та зрозумілими позиціями.</td>
-    <td>Одна з найпопулярніших карт для командної гри та контролю мідлу.</td>
-    <td>Карта з “вузькими” проходами, важлива робота з гранатами.</td>
-    <td>Дворівнева карта з великою роллю ротацій та інформації.</td>
-  </tr>
-</table>
+        <tr align="center" valign="top">
+          <td style="color: white;">Класична карта з простими таймінгами та зрозумілими позиціями.</td>
+          <td>Одна з найпопулярніших карт для командної гри та контролю мідлу.</td>
+          <td>Карта з “вузькими” проходами, важлива робота з гранатами.</td>
+          <td>Дворівнева карта з великою роллю ротацій та інформації.</td>
+        </tr>
+      </table>
 
-<p>
-  Повернутись до <a href="#team-rating">рейтингу команд</a> або переглянути
-  <a href="map-csgo.html">галерею карт</a>.
-</p>
+      <p>
+        Повернутись до <a href="#team-rating">рейтингу команд</a> або переглянути
+        <a href="map-csgo.html">галерею карт</a>.
+      </p>
 
     </section>
   </main>
@@ -205,4 +189,5 @@
     <p>Автор: Олександр • Розділ “Рейтинг”</p>
   </footer>
 </body>
+
 </html>
