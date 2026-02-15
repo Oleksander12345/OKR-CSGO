@@ -138,3 +138,18 @@ td {
   background: none;
   border: none;
 }
+
+.game-info p {
+  font-size: 18px;
+}
+
+.game-info > .modes {
+  list-style-type: armenian;
+}
+
+.test-selector ~ p {
+  color: bisque;
+}
+.test-selector + p {
+  text-decoration: line-through;
+}
