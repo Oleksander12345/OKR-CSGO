@@ -73,3 +73,47 @@
     margin-top: 14px;
     opacity: .9
 }
+
+.position-demo {
+    position: relative;
+    margin: 30px 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.box {
+    width: 150px;
+    height: 80px;
+    background: #1e293b;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ffd24a;
+    position: relative;
+}
+
+.highlight {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    background: #334155;
+}
+
+.float-box {
+    float: right;
+    background: #475569;
+}
+
+.menu li:first-child {
+    color: #ffd24a;
+    font-weight: bold;
+}
+
+h1::before {
+    content: "★ ";
+    color: gold;
+}
+
+h1::after {
+    content: " ★";
+    color: gold;
+}
