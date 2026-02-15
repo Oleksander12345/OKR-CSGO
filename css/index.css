@@ -1,43 +1,68 @@
-body {
-  color: #e8e8e8;
-  background: url("../images/bg.webp") no-repeat center center fixed;
-  background-size: cover;
-}
-
-.page-header, .page-footer {
-  background: rgba(0, 0, 0, 0.55);
-  backdrop-filter: blur(4px);
-  color: #ffd24a;
-}
-
 .content {
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, .55);
   padding: 16px;
-  border-radius: 10px;
+  border-radius: 10px
 }
 
 .menu {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, .65)
+}
+
+#video {
+  text-align: center
+}
+
+.float-frame {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center
+}
+
+.logo-compare {
+  margin-top: 20px;
   padding: 16px;
-  border-radius: 10px;
+  background: rgba(0, 0, 0, .45);
+  border-radius: 12px
 }
 
-.menu-title {
-  margin: 0 0 12px;
-  letter-spacing: 2px;
+.logo-compare h3 {
+  margin: 0 0 14px;
+  letter-spacing: 1px
 }
 
-.menu ul {
-  list-style: none;
-  padding: 0;
+.logo-compare .logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap
+}
+
+.logo-compare figure {
   margin: 0;
+  text-align: center;
+  transition: transform .3s ease
 }
 
-.menu li {
-  margin: 10px 0;
+.logo-compare figure:hover {
+  transform: scale(1.05)
 }
 
-.menu a {
-  text-decoration: none;
-  font-weight: bold;
+.logo-compare img {
+  background: rgba(255, 255, 255, .05);
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, .15)
+}
+
+.logo-compare figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  opacity: .85
+}
+
+.float-frame {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }

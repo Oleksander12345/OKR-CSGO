@@ -1,92 +1,71 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #eaeaea;
+  background: rgb(3 27 51) !important;
+  color: #eaeaea
 }
 
 .page-header,
 .page-footer {
-  padding: 14px 18px;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, .55)
 }
 
 .page-header h1 {
-  margin: 0;
-  font-size: 22px;
+  font-size: 22px
 }
 
 .subtitle {
   margin: 8px 0 0;
-  opacity: 0.9;
-}
-
-.layout {
-  display: flex;
-  gap: 16px;
-  padding: 16px;
-  align-items: flex-start;
+  opacity: .9
 }
 
 .content {
-  flex: 1;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, .55);
   padding: 14px 16px;
-  border-radius: 10px;
+  border-radius: 10px
 }
 
 table {
-  width: 100%;
   border-collapse: separate;
   margin: 12px 0 18px;
-  background: rgba(10, 15, 25, 0.75);
+  background: rgba(10, 15, 25, .75);
   border-radius: 10px;
-  overflow: hidden;
+  overflow: hidden
 }
 
 caption {
   caption-side: top;
   padding: 10px 6px;
   font-weight: bold;
-  letter-spacing: 0.5px;
-}
-
-th,
-td {
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  letter-spacing: .5px
 }
 
 thead th {
   color: #f8fafc;
-  font-weight: bold;
+  font-weight: bold
 }
 
 tbody td {
-  color: #e5e7eb;
+  color: #e5e7eb
 }
 
 tbody tr:hover {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, .06)
 }
 
 tbody td:first-child {
   font-weight: bold;
-  color: #ffd24a;
+  color: #ffd24a
 }
 
 table a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bold
 }
 
 tfoot td {
   font-size: 14px;
-  opacity: 0.95;
+  opacity: .95
 }
 
 h2 {
-  margin-top: 20px;
-}
-
-p {
-  line-height: 1.6;
+  margin-top: 20px
 }
